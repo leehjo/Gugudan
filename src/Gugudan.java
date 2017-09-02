@@ -2,6 +2,18 @@ import java.util.Scanner;
 
 public class Gugudan {
 	public static void main(String[] args) {
+		//6단
+		int i = 1;
+		while(i< 10) {
+			System.out.println(6 * i);
+			i = i + 1;
+		}
+		
+		//7단
+		for(int j = 1; j<10; j++) {
+			System.out.println(7 * j);
+		}
+		
 		//2단
 	/*
 		System.out.println("2단");
@@ -48,7 +60,7 @@ public class Gugudan {
 		System.out.println(result);
 		result = 4 * 9;
 		System.out.println(result);
-	*/		
+			
 		System.out.println("구구단 출력할 단은 ? : ");
 		Scanner scanner = new Scanner(System.in);
 		int num = scanner.nextInt();
@@ -60,6 +72,8 @@ public class Gugudan {
 		System.out.println(num * 6);
 		System.out.println(num * 7);
 		System.out.println(num * 8);
-		System.out.println(num * 9);
+		System.out.println(num * 9); 
+		
+		*/
 	}
 }
